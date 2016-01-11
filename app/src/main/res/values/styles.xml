@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="OzelTema" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="actionBarStyle">@style/OzelActionBar</item>
+    </style>
+    <style name="OzelActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/OzelBaslik</item>
+        <item name="background">@color/green</item>
+    </style>
+    <style name="OzelBaslik" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+</resources>
